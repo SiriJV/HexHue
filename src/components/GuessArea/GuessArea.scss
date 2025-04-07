@@ -1,0 +1,44 @@
+.row1, .row2, .row3, .row4, .row5, .row6 {
+    width: auto;
+    height: auto;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .box {
+    width: 45px;
+    height: 45px;
+    background-color: white;
+    border: 3px solid #d4c685;
+  }
+  
+  .circle {
+    width: 45px;
+    height: 45px;
+    background-color: #fffab6;
+    border-radius: 50%;
+    border: 3px solid #d4c685;
+
+    color: #d4c685;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .guesses {
+    // position: absolute;
+    // top: 50%;
+    // right: 50%;
+    // transform: translate(50%, -50%);
+    
+    width: auto;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  //efa48b
